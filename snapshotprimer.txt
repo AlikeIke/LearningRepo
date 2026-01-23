@@ -1,0 +1,20 @@
+Intializing a repository:
+
+1. Create a project directory
+2. Initialize empty git repository with "git init"
+
+Git workflow:
+Modify Files, when it reacts a state we want to record, we commit them.
+Committing is like creating a snapshot of your project
+- Staging area/Index, area in which we essentially propose what we are
+planning for your next commit. Modified files gets added to index and then
+make a commit to the repository.
+
+git commit -m "..." where all the words inside the quotes describes the 
+what is being done with the commit
+Committing doesnt remove whats in the staging area
+-When deleting files from your working/project directory, remember to run the
+git add cmd for the deleted file to remove it from the staging area
+then commit
+
+ 
