@@ -21,3 +21,16 @@ then commit
 git diff --staged compares what was in your last commit to whats currently
 in the staging area
 
+Below is an example of a git diff --staged output
+
+--- a/snapshotprimer.txt 
++++ b/snapshotprimer.txt 
+@@ -18,3 +18,6 @@
++git diff --staged compares what was in your last commit to whats currently
++in the staging area
++
+
+The minuses show changes with the last commit, the pluses denote change with 
+whats in the current staging. The numbers denote what line the change start
+and how many lines has been changed and below that is the resulting output
+
