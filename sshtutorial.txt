@@ -1,0 +1,7 @@
+Creating a new ssh key:
+
+1. In a terminal, run the following command with your email address:
+ssh-keygen -t ed25519 -C "your_email@example.com"
+	The syntax of ssh-keygen is: ssh-keygen -t *type of cypher* -b *number of bits* -C *comment, typically an email addy*
+
+

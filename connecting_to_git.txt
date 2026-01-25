@@ -1,0 +1,23 @@
+Create a directory that will work as your local repository
+CD into said directory
+1. Use command: "git init" to initalize directory
+
+2. Use command: "git config --global user.name "*insert username*" "
+                "git config --global user.email "*insert email*" "
+
+3. You can connect to git utilizing ssh keys. You have already created a file with instructions on how to do this but as a
+quick reminder you will use the following cmds:
+
+ssh-keygen -t *type of cypher* -C "*your github email addy*
+	this creates the keypair, the command will also make you choose a location on where to save the keypair
+	Typically in your ~/users/.ssh/*cyphername*.pub
+
+4. Once keypair is created, go into your github account, into settings and copy and paste your public key into your account
+
+5. From there you can attempt to connect/clone an existing repository with the following cmds:
+git remote add origin *ssh-url*
+	ssh-url typically in the syntax of  git@github.com:*username*/*reponame*.git
+	This creates a bookmark to your remote repository onto your local machine
+
+git clone -b master *ssh-url*
+	creates an identical local copy of an existing repository
