@@ -1,0 +1,26 @@
+Start every bash script with the first line being:
+"#!/bin/bash" without the quotes
+
+if statements follow the syntax of:
+
+if [...]; then
+	cmds
+else
+	cmds
+fi
+ #remember to use fi to end the if statement, the brackets for the conditions and the ; and then keywords
+
+for loops:
+
+for var in {...}
+do
+	cmds
+done
+
+while loops:
+
+while [ ... ]
+do
+	cmds
+done
+#there must be a space between the start and end of the while loop brackets
