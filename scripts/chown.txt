@@ -1,0 +1,1 @@
+#Syntax of chown is: chown username filename i.e. chown ike chown.txt
