@@ -1,0 +1,4 @@
+<<uniq
+Used to get rid of SEQUENTIAL duplicate lines. i.e. if the lines are the same but not consecutive, they will not be affected by uniq command
+
+uniq

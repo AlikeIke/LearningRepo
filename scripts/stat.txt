@@ -1,0 +1,9 @@
+
+#stat command
+
+#stat command -c gives formatting options %y refers to MODIFIED field %x=Access %z =Change
+stat -c %y bashprimer.txt
+
+stat -c $'Access: %x \nModify: %y\n Change: %z' bashprimer.txt
+
+stat -c $'Filename: %n, Access: %x, Modify: %y\, Change: %z'\n *.txt

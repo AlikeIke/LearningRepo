@@ -1,0 +1,4 @@
+For if statements when comparing numbers, use double paranthesis, for complex
+comparisons use double brackets
+
+For accessing arrays via index: ${array_name[]}
