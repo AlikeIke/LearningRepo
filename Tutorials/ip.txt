@@ -1,0 +1,22 @@
+#Views info regarding networking interfaces on ur system
+ip addr show
+
+you can does ip addr show dev *interface_name* to show info only regarding the interface_name
+
+ip addr show dev wlo1
+
+#link = working with a link set *interface_name* [down/up]
+sudo ip link set wlo1 down
+
+#to add/delete an ip addr from an interface
+sudo ip addr [add/del] 192.168.0.23/24 dev *interface_name*
+
+#ip route show
+ip route show
+
+sudo ip route [add/del] *destination addr + subnetmask* via *gateway address* dev *interface*
+
+Example: ip route add 192.168.22.1/24 via 192.168.0.1 dev wlo1
+
+#Prints statistics regarding the link layer
+ip -s link show wlo1

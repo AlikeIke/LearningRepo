@@ -1,0 +1,15 @@
+File command is used to check what type of file is currently being fed to the command
+
+Syntax: file file_name
+
+Locate command uses a database to find any file on that machine
+
+Syntax: locate file_name
+-Database will need to be updated
+Syntax: updatedb
+
+Extra parameters/flags
+
+locate -i to make the locate result case insensitive
+locate -c that just shows the number of files
+

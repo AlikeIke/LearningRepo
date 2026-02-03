@@ -1,0 +1,16 @@
+lsusb lists usb devices on linux
+-t flag does it in a tree view
+
+lsusb -t
+
+lspci lists devices on pci bus
+
+lshw lists hardware
+
+inputs ur hardware list to a html file or webpage
+lshw -html > outputfile
+-short shortens the output
+
+lscpu for cpu info
+
+lsblk views file storage devices

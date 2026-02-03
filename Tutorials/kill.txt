@@ -1,0 +1,14 @@
+Kill is used to send a signal to a process
+
+Syntax: kill signal_number processID
+ Example: kill -9 45622
+
+ps aux shows the processes running on your system
+
+pidof cmd, Process ID of command; syntax: pidof process_name
+Example pidof nano
+
+Signal IDs: 15 = Terminate, happens by default. Terminates gracefully after cleanup
+9 = Kill, ills the process, terminate without cleanup.
+2 = interupt, control+C
+

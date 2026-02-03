@@ -1,0 +1,9 @@
+#rsync syncs/copy data from 1 directory to another, isnt a bidirectional sync
+#rsync utilizes ssh
+
+#--dry-run flag activates a demo mode that does a testrun and calculates what would have done if dry run wasnt there
+# -r is for recursive -v will actually show output of what was copied
+syntax: rsync -rv --dry-run *what you want to backup* *where you want to back it up to*
+ 
+
+

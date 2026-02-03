@@ -1,0 +1,5 @@
+Useful for SysAdmins and Power Users
+Each Linux System has a number of process that run in the background, they output info into log files
+journalctl can inspect log files that these processes produce, mostly used if you have a distro with systemd
+
+
