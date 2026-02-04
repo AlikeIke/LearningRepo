@@ -1,0 +1,13 @@
+Variable declaration is as simple as making a variable name putting an equal next to it and assigning a value
+Referencing variables requires using a dollar sign
+
+When in a bash script, echoing a statement with DOUBLE QUOTES allows the bash script to read a referenced variable($) with its actual value. Single quotes will print out what is
+literally there
+
+setting a variable equal to a command in paranthesis is called a subshell, this causes the command in the paranthesesis to be run in the background and stored in that variable
+
+Example: files=$(ls)
+echo "$files" if in bash
+echo $files in cmdline
+
+env cmd tells you what System/Environmental preset variables you have
