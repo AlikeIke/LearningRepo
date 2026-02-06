@@ -1,0 +1,24 @@
+#Creates user, may create a home directory for them, depends on disro
+sudo useradd *username*
+
+
+sudo userdel *username*
+
+#Creates a home directory for user when creating user
+sudo useradd -m *username*
+
+
+#Removes user acc and their home directory
+sudo userdel -r *username*
+
+#Changes password
+passwd *username*
+
+#Creates a system user/service account
+sudo useradd -r *username*
+
+
+
+
+
+
