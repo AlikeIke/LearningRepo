@@ -1,0 +1,19 @@
+groups *username* shows you what groups a user is part of
+
+/etc/groups shows the groups on the system, 3 columns. Group name, group
+passwords, group ID, 4th column is optional and shows what user are members of
+that group
+
+sudo groupadd *groupname* creates a group
+sudo groupdel *groupname* deletes a group
+
+2 types of groups, primary groups and secondary group. Its designation is based
+on how its assigned. There can be 1 primary group and any number of secondary
+groups. The groupID on your /etc/passwd designates ur primary group
+
+#Adds user to a secondary group. -a appends, -G for secondary
+sudo usermod -a -G *groupname* *username*
+
+#Changes users primary group. -g for primary group
+sudo usermod -g *groupnname* *username*
+
